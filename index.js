@@ -1,6 +1,7 @@
 'use strict'
 
 const gl = require('mapbox-gl')
+const getBerlinCounters = require('./lib/berlin-counters')
 
 gl.accessToken = 'pk.eyJ1IjoiZ3JlZndkYSIsImEiOiJjaXBxeDhxYm8wMDc0aTZucG94d29zdnRyIn0.oKynfvvLSuyxT3PglBMF4w'
 const map = new gl.Map({
@@ -12,4 +13,7 @@ const map = new gl.Map({
 })
 map.addControl(new gl.NavigationControl(), 'top-left')
 
-const el = document.getElementById('map')
+getBerlinCounters()
+.then((counters) => {
+})
+.catch(console.error)

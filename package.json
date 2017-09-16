@@ -20,7 +20,11 @@
 		"node": ">=6"
 	},
 	"dependencies": {
-		"mapbox-gl": "^0.40.0"
+		"fetch-ponyfill": "^4.1.0",
+		"mapbox-gl": "^0.40.0",
+		"p-map": "^1.2.0",
+		"pinkie-promise": "^2.0.1",
+		"query-string": "^5.0.0"
 	},
 	"scripts": {
 		"start": "watchify -t [ babelify --presets env ] index.js -o bundle.min.js",
