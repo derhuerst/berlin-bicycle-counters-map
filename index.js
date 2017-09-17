@@ -18,10 +18,13 @@ const map = new gl.Map({
 map.addControl(new gl.NavigationControl(), 'top-left')
 
 const createMarker = (counter, color) => {
-	const el = document.createElement('div')
+	const el = document.createElement('a')
 	el.setAttribute('class', 'counter')
 	el.innerText = human(parseInt(counter.meta.count))
 	el.style.backgroundColor = color
+	el.setAttribute('target', '_blank')
+	el.setAttribute('href', counter.meta.url)
+	el.setAttribute('title', counter.meta.name)
 
 	new gl.Marker(el)
 	.setLngLat([

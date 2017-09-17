@@ -22,4 +22,10 @@ html, body {
 	cursor: normal;
 	border-radius: .2em;
 	background-color: #fff;
+	text-decoration: none;
+	color: inherit;
+}
+
+.counter:hover {
+	text-decoration: underline;
 }
