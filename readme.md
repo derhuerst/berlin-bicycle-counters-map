@@ -1,6 +1,6 @@
 # berlin-bicycle-counters-map
 
-**Show Berlin bicycle counters on a map.**
+**Show Berlin bicycle counters on a map.** Queries the data from [berlin-bicycle-counters-rest](https://github.com/derhuerst/berlin-bicycle-counters-rest), originally from [eco-public.com](https://www.eco-public.com/ParcPublic/?id=4728).
 
 [![build status](https://img.shields.io/travis/derhuerst/berlin-bicycle-counters-map.svg)](https://travis-ci.org/derhuerst/berlin-bicycle-counters-map)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/berlin-bicycle-counters-map.svg)
