@@ -24,7 +24,7 @@
 		"color-interpolate": "^1.0.2",
 		"fetch-ponyfill": "^4.1.0",
 		"lodash": "^4.17.4",
-		"mapbox-gl": "^0.40.0",
+		"mapbox-gl": "^1.10.0",
 		"p-map": "^1.2.0",
 		"pinkie-promise": "^2.0.1",
 		"query-string": "^5.0.0"
