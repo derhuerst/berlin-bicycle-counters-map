@@ -17,7 +17,7 @@
 	"bugs": "https://github.com/derhuerst/berlin-bicycle-counters-map/issues",
 	"license": "ISC",
 	"engines": {
-		"node": ">=6"
+		"node": ">=16"
 	},
 	"dependencies": {
 		"approximate-number": "^2.0.0",
